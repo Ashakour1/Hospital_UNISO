@@ -43,7 +43,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold mb-6 text-gray-800">
-                Hospital Director's Message
+                Hospital Director&apos;s Message
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Welcome to our state-of-the-art medical facility. Our commitment
@@ -137,13 +137,13 @@ export default function Home() {
                   </div>
                   {doctor === 2 && (
                     <>
-                      <h3 className="font-bold text-xl mb-2">Dr. Amiin</h3>
+                      <h3 className="font-bold text-xl mb-2">Dr. Amiin</h3> {/* cspell:ignore Amiin */}
                       <p className="text-gray-600">Director & Surgeon</p>
                     </>
                   )}
                   {doctor === 1 && (
                     <>
-                      <h3 className="font-bold text-xl mb-2">Dr. Muna</h3>
+                      <h3 className="font-bold text-xl mb-2">Dr. Muna</h3> {/* cspell:ignore Muna */}
                       <p className="text-gray-600">Pediatrician</p>
                     </>
                   )}
@@ -165,7 +165,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Latest News</h2>
           <div className="grid md:grid-cols-4 gap-6">
-            {[1, 2, 3, 4].map((news, index) => (
+            {[1, 2, 3, 4].map((news) => (
               <Card key={news} className="overflow-hidden bg-white">
                 <div className="relative h-[200px]">
                   <Image
