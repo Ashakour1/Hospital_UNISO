@@ -66,10 +66,10 @@ export default function DoctorsPage() {
           <div className="container mx-auto px-4 h-full flex items-center justify-center">
             <div className="max-w-3xl text-center text-white">
               <p className="text-2xl italic mb-8">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat."
+                nisi ut aliquip ex ea commodo consequat.
               </p>
               <div className="flex justify-center gap-2">
                 {[1, 2, 3].map((dot) => (
@@ -93,7 +93,7 @@ export default function DoctorsPage() {
             BETTER INFORMATION, BETTER HEALTH
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
-            {[1, 2, 3, 4].map((news, index) => (
+            {[1, 2, 3, 4].map((news) => (
               <div key={news} className="flex gap-4 items-start">
                 <div className="relative w-32 h-32 flex-shrink-0">
                   <Image
