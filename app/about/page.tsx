@@ -43,10 +43,10 @@ export default function AboutPage() {
           <div className="container mx-auto px-4 h-full flex items-center justify-center">
             <div className="max-w-3xl text-center text-white">
               <p className="text-2xl italic mb-8">
-                "Our mission is to provide exceptional healthcare services with
+                Our mission is to provide exceptional healthcare services with
                 compassion and expertise. We are committed to maintaining the
                 highest standards of medical care while ensuring patient comfort
-                and satisfaction."
+                and satisfaction.
               </p>
               <div className="flex justify-center gap-2">
                 {[1, 2, 3].map((dot) => (
