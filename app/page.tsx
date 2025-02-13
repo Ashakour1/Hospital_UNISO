@@ -43,7 +43,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold mb-6 text-gray-800">
-                Hospital Director&apos;s Message
+                Hospital Directors Message
               </h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 Welcome to our state-of-the-art medical facility. Our commitment
