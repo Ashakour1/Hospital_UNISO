@@ -1,16 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import {
-  Phone,
-  Mail,
-  Clock,
-  MapPin,
-  Facebook,
-  Twitter,
-  Instagram,
-} from "lucide-react";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -204,7 +194,6 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-  
     </div>
   );
 }
