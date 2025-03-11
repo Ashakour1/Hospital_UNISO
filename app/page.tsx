@@ -29,7 +29,7 @@ export default function Home() {
                 <br />
                 state-of-the-art facilities
               </p>
-              <Button className="bg-[#00A651] hover:bg-[#008c44] text-white px-8 py-6 text-lg rounded-md">
+              <Button className="bg-[#00A651] hover:bg-[#008c44] text-white px-8 py-6 text-lg rounded-full">
                 Learn More
               </Button>
             </div>
